@@ -1,0 +1,52 @@
+
+.skills_wrapper{
+    background-color: #132347;
+    padding:20px;
+    border-radius: 10px;
+}
+.skill_bar{
+    height: 5px;
+    width: 100%;
+    position: relative;
+    background: #c1ceff;
+    border-radius: 50px;
+
+    z-index: 999;
+}
+.skill_bar_percentage{
+    background: #7865ff;
+    
+    height: 5px;
+    position: absolute;
+    z-index: 100;
+    top:0;
+    left:0;
+    border-radius: 50px;
+}
+.skill_title span{
+    color: #fff;
+
+}
+.skill_title{
+    margin-bottom: 10px;
+}
+/*      custiom scro0ll clceff*/
+::-webkit-scrollbar{
+    width:10px;
+    background:#c1ceff;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background:#282f4e ;
+}
+
+
+/*                     responsive           */
+@media only screen and (max-width:992px){
+    .skill_title h6{
+        font-size: .8rem;
+    }
+    .skill_title span{
+        font-size: .7rem;
+    }
+}

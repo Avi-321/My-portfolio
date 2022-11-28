@@ -1,0 +1,55 @@
+/* font-family: 'Lato' 'Rubik', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #0E1831;
+
+}
+html{
+  scroll-behavior:smooth; 
+}
+
+p{  
+  font-family: 'rubik', sans-serif;
+    font-size: 1rem;
+    color: white;
+    opacity: 80%;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'lato', sans-serif;
+  color: white;
+}
+h1,h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ul{
+  list-style: none;
+  margin: 0%;
+
+}
+a{
+  color:unset ;
+  font-family: 'lato', sans-serif;
+
+}
+a:hover{
+  color: unset;
+}
+section,footer{
+  padding: 60px 0px;
+}
+
+
+/*                     responsive           */
+@media only screen and (max-width:992px){
+  .section{
+    padding:40px 0px;
+  }
+}

@@ -1,0 +1,87 @@
+.hire_btn{
+    
+    background: white;
+    color:rgb(12, 23, 92) ;
+}
+.hire_btn a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.hire_btn:hover{
+    background: rgb(64, 80, 171);
+    color:white
+}
+.mytitle span{
+   color:#7865ff ; 
+}
+.mytitle{
+    font-weight:600 ;
+}
+.myimg{
+    height: 500px;
+    width: 500px;
+    
+    margin-left: auto;
+}
+.myimg img{border-radius: 10px;
+    height: 400px;
+    width: 400px;
+}
+.S_icon a{
+    text-decoration: none;
+}
+.social_link{
+    /* margin-bottom: 25px; */
+}
+.S_icon{
+    font-size: 1.6rem;
+    
+}
+.mybtns{
+    margin-top: 25px;
+}
+
+.my_section{
+    padding-top: 150px;
+}
+.mycontent p{
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/*                          responsive                       */
+ @media only screen and (max-width:992px)
+ {
+    .myimg {
+        width:300px;
+        height: 300px;
+    }
+    .myimg img{border-radius: 10px;
+        height: 250px;
+        width: 200px;
+    }
+    .mycontent p{
+        font-size: .8rem;
+    }
+    .my_btns button{
+        display:block;
+        padding:5px 20px;
+        font-size: .8rem;
+    }
+    .S_icon{
+        font-size: 1.1rem;
+    }
+ }
+
+ @media only screen and (max-width:576px)
+ {
+    .mycontent{
+        margin-bottom: 50px;
+    }
+    .mytitle{
+        font-size:1.5rem;
+        
+    }
+
+ }

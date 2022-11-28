@@ -1,0 +1,18 @@
+.footer{
+    border-top: 1px solid #7765ff85;
+    padding: 20px;
+
+}
+
+.footer p{
+    font-weight:300;
+    font-size: .9rem;
+}
+
+
+/*                     responsive           */
+@media only screen and (max-width:992px){
+    .footer p{
+        font-size: .7rem;
+    }
+}
