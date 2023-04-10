@@ -44,7 +44,7 @@ function About() {
                             <h2>I'm Abhishek Kumar Shah</h2>
                             <p>I am a passionate web developer and a  programmer. A quick learner with a
                                 self-learning attitude. I love to learn and explore new technologies and am 
-                                passionate about provlem solving. Love almost all the stacks of software engineering. 
+                                passionate about problem solving. Love almost all the stacks of software engineering. 
                             </p>
                             <div className="social_link">
                               <h6 className='mb-3'>Connect with me...</h6>
